@@ -1,0 +1,24 @@
+{
+  "name": "parsercomb.js",
+  "version": "0.0.1",
+  "description": "Parser combinator building blocks for JS",
+  "main": "src/combinators.mjs",
+  "files": [
+    "src"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint --fix src/*",
+    "test": "mocha test/*.js"
+  },
+  "author": "Oskar Ojala",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.14.0",
+    "esm": "^3.2.5",
+    "mocha": "^5.2.0"
+  }
+}
